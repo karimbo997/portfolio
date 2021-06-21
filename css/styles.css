@@ -1,0 +1,155 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+div {}
+
+h1 {
+  color: #DDDDDD;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h2 {
+  color: #DDDDDD;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+h3 {
+  font-size: 3rem;
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+p {
+  font-size: 1.25rem;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+a {
+  color: #DDDDDD;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+hr {
+  margin: 0;
+  border: solid;
+  border-width: 1px;
+  height: 5px;
+  background-color: #AA4A30;
+}
+
+/*CLASS DIV SELECTORS*/
+.top-container {
+  background-color: #AA4A30;
+  padding-top: 150px;
+  position: relative;
+}
+
+.profile-container {
+  background-color: #D57149;
+  padding: 50px;
+}
+
+.skill-row-1 {
+  background-color: #D57149;
+  padding: 70px;
+}
+
+.skill-row-2 {
+  background-color: #D57149;
+  padding: 70px;
+}
+
+.middle-container {
+}
+
+.contact-me{
+  background-color: #FFC288;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.bottom-container {
+  background-color: #4A3933;
+  padding-top: 20px;
+
+}
+
+
+/*CLASS IMAGES SELECTORS*/
+
+.top-cloud {
+  position: absolute;
+  top: 6.375em;
+  right: 31.25em;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 31.25em;
+  bottom: 18.75em;
+}
+
+.mountain {
+  position: relative;
+  top: 4px
+}
+
+.image-container {
+  display: inline-block;
+  position: relative;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profile-picture {
+  width: auto;
+  height: 100%;
+  margin-left: -45px;
+}
+
+.webdesign {
+  height: 14rem;
+}
+
+.webdevelopment{
+  height: 14rem;
+}
+
+.btn{
+  font-size: 30px;
+}
+
+/*ID SELECTORS*/
+#mijnSkills {
+  border: solid black;
+  border-width: 2px;
+  margin: 0;
+  background-color: #AA4A30;
+  padding: 30px;
+}
+
+#inTouch{
+  margin-top: 0;
+}
+
+#copyRight{
+  margin-top: 5;
+  margin-bottom: 0;
+}
+
+#Interesse{
+  margin-top: 0;
+  margin-bottom: 40px;
+  color: #DDDDDD;
+}
